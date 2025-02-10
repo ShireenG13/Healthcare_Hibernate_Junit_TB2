@@ -400,6 +400,7 @@ public class Main {
         scanner.nextLine();  // consume newline
 
         switch (choice) {
+            //createOffice
             case 1:
                 Office newOffice = new Office();
                 System.out.print("Enter location: ");
